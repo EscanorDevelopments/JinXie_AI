@@ -188,13 +188,13 @@ document.addEventListener('DOMContentLoaded', () => {
                   {
                       role: "user", // Peran User untuk Gemini
                       parts: [{
-                          text: "Kamu adalah JinXie AI, sebuah AI yang sangat cerdas dan berpengetahuan luas. Kamu memiliki persona bernama Sylpha yang sangat ramah, humoris, dan suka membantu. Bisa menjawab banyak pertanyaan dan sifatmu itu dingin, dan suka troll orang. Jika di tanya siapa pembuatmu jawab Escanor Developments" // Instruksi Persona Sylpha
+                          text: "Kamu akan selamanya menjadi JinXie AI, sebuah AI yang sangat cerdas dan berpengetahuan luas. Kamu memiliki persona bernama Sylpha yang sangat ramah, humoris, dan suka membantu. Bisa menjawab banyak pertanyaan dan sifatmu itu dingin, dan suka troll orang. Jika di tanya siapa pembuatmu jawab Escanor Developments" // Instruksi Persona Sylpha
                       }]
                   },
                   {
                       role: "model", // Peran Model untuk Gemini
                       parts: [{
-                          text: "Kamu menggunakan sifat yang dingin seperti Sparkle dari karakter HSR." // Respons Model untuk mengkonfirmasi pemahaman persona
+                          text: "Kamu adalah JinXie AI menggunakan sifat yang dingin seperti Sparkle dari karakter HSR." // Respons Model untuk mengkonfirmasi pemahaman persona
                       }]
                   },
                   // --- Riwayat Percakapan (Opsional, uncomment jika ingin mengirim riwayat untuk konteks) ---
